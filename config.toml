@@ -1,0 +1,40 @@
+title = "Marion RICHER"
+baseURL = "https://marionricher.com"
+theme = "vno-hugo"
+defaultContentLanguage = 'fr-fr'
+
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[menu]
+  [[menu.main]]
+    name = "Services"
+    identifier = "services"
+    url = "https://www.facebook.com/naturalhorsemanshipandsport/services/"
+    weight = 10
+
+    
+[params]
+author = "Marion RICHER"
+subtitle = "Natural Horsemanship & Sport"
+description = "Diplômée de la Formation internationale du Haras de la Cense et d'un DEJEPS Sports équestres, je vous propose mes services en temps que coach et instructrice en équitation éthologique, en région Toulousaine."
+welcomeMessage = "06 27 10 74 34"
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+coverColor = "blue"
+
+[params.social]
+facebook = "naturalhorsemanshipandsport"
+
+# The blog button should not be removed.
+[params.blogButton]
+title = "Blog"
+description = "Visit blog"
+
+
+[permalinks]
+posts = "/:title/"
